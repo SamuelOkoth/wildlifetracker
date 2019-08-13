@@ -1,0 +1,13 @@
+{{#partial "content"}}
+{{#each endangered}}
+    <div class="well">
+        <p>Name of animal {{name}}</p>
+        <p>age of animal {{age}}</p>
+        <p>Location last spotted{{location}}</p>
+        <p>Healt status of the animal{{healthStatus}}</p>
+        <p>Type of animal{{type}}</p>
+    </div>
+{{/each}}
+
+{{/partial}}
+{{>layout.hbs}}

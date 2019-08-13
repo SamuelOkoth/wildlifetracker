@@ -1,0 +1,34 @@
+{{#partial "content"}}
+
+    <div class="row">
+        <form action="/sightings/new" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="text" class="form-control" name="age">
+            </div>
+
+            <div class="form-group">
+                <label for="location">Location</label>
+                <input type="text" class="form-control" name="location">
+            </div>
+
+            <div class="form-group">
+                <label for="healthStatus">Health Status</label>
+                <input type="text" class="form-control" name="healthStatus">
+            </div>
+
+            <div class="form-group">
+                <label for="rangerName">Ranger Name</label>
+                <input type="text" class="form-control" name="">
+            </div>
+            <button type="submit" class="btn btn-primary">Add Sighting</button>
+
+        </form>
+    </div>
+{{/partial}}
+{{>layout.hbs}}
