@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.moringaschool.wild-tracker1</groupId>
-    <artifactId>wild-tracker1</artifactId>
+    <groupId>com.moringaschool.app</groupId>
+    <artifactId>my-app</artifactId>
     <version>1.0</version>
 
     <dependencies>
@@ -79,7 +79,7 @@
                     <!-- Change this to YOUR application name! -->
                     <appName>wild-tracker1</appName>
                     <processTypes>
-                        <web>java -jar target/wild-tracer-1.0-jar-with-dependencies.jar</web>
+                        <web>java -jar target/my-app-1.0-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
